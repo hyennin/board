@@ -33,7 +33,6 @@
     </header>
     <main>
         <div class="container">
-            <button class="list-button" onclick="location.href='index.html'">목록으로</button></a>
             <div class="post-container">
                 <div class="headline">
                     <div class="title">
@@ -48,8 +47,39 @@
                 </div>
                 <hr>
                 <div class="content-container">
-                    <img class="content-img" src="./img/post.jpg" alt="post">
+                    <img id="image-show" class="content-img" src="./img/post.jpg" alt="post">
                     <div class="content">므야아앙오와옹</div>
+                </div>
+            </div>
+            <button class="list-button" onclick="location.href='index.html'">목록으로</button></a>
+            <form class="form comment-form">
+                <textarea placeholder="댓글을 입력해주세요"></textarea>
+                <button type="button" class="submit">등록하기</button>
+            </form>
+            <div class="comment-container">
+                <div class="comment">
+                    <div class="top">
+                        <div class="author">먼지</div>
+                        <button class="delete-button">삭제</button>
+                    </div>
+                    <p class="content">크앙</p>
+                    <div class="time">2023.05.31 11:25</div>
+                </div>
+                <div class="comment">
+                    <div class="top">
+                        <div class="author">먼지</div>
+                        <button class="delete-button">삭제</button>
+                    </div>
+                    <p class="content">크앙</p>
+                    <div class="time">2023.05.31 11:25</div>
+                </div>
+                <div class="comment">
+                    <div class="top">
+                        <div class="author">먼지</div>
+                        <button class="delete-button">삭제</button>
+                    </div>
+                    <p class="content">크앙</p>
+                    <div class="time">2023.05.31 11:25</div>
                 </div>
             </div>
         </div>
